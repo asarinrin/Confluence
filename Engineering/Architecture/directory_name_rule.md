@@ -2,15 +2,17 @@
 
 ルート直下において
 
-./
-├─ src
-├─ build
-├─ doc
-├─ example
-├─ test
-└─ lib
+./  
+├─ src  
+├─ build  
+├─ doc  
+├─ example  
+├─ test  
+└─ lib  
 
 と配置のがベスプラそう(?)
+
+---
 
 - src     : プログラムの本体を置く
 - build   : srcから生成した何かを置くところ

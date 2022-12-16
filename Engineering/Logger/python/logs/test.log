@@ -1,0 +1,84 @@
+
+------------ START LOGGER [2022-12-16 19:20:15] ------------
+
+------------ START LOGGER [2022-12-16 19:27:51] ------------
+2022-12-16 19:27:51 [DEBUG]	logger.py - <module>:92 -> default
+2022-12-16 19:27:51 [DEBUG]	logger.py - <module>:93 -> db
+
+------------ START LOGGER [2022-12-16 19:29:14] ------------
+2022-12-16 19:29:14 [DEBUG]	logger.py - <module>:92 -> default
+2022-12-16 19:29:14 [DEBUG]	logger.py - <module>:93 -> db
+
+------------ START LOGGER [2022-12-16 19:29:21] ------------
+2022-12-16 19:29:21 [DEBUG]	logger.py - <module>:92 -> default
+2022-12-16 19:29:21 [DEBUG]	logger.py - <module>:93 -> db
+
+------------ START LOGGER [2022-12-16 19:41:28] ------------
+2022-12-16 19:41:28 [DEBUG]	logger.py - <module>:130 -> default
+2022-12-16 19:41:28 [DEBUG]	logger.py - <module>:131 -> db
+
+------------ START LOGGER [2022-12-16 19:42:32] ------------
+2022-12-16 19:42:32 [DEBUG]	logger.py - <module>:126 -> default
+2022-12-16 19:42:32 [DEBUG]	logger.py - <module>:127 -> db
+
+------------ START LOGGER [2022-12-16 19:43:25] ------------
+2022-12-16 19:43:25 [DEBUG]	logger.py - <module>:127 -> default
+2022-12-16 19:43:25 [DEBUG]	logger.py - <module>:128 -> db
+
+------------ START LOGGER [2022-12-16 19:43:33] ------------
+2022-12-16 19:43:33 [DEBUG]	logger.py - <module>:127 -> default
+2022-12-16 19:43:33 [DEBUG]	logger.py - <module>:128 -> db
+
+------------ START LOGGER [2022-12-16 19:43:44] ------------
+2022-12-16 19:43:44 [DEBUG]	logger.py - <module>:126 -> default
+2022-12-16 19:43:44 [DEBUG]	logger.py - <module>:127 -> db
+2022-12-16 19:43:44 [INFO]	/logger.py - test:136 -> test: START
+2022-12-16 19:43:44 [ERROR]	logger.py - printlog:114 -> test: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 19:44:23] ------------
+2022-12-16 19:44:23 [DEBUG]	logger.py - <module>:126 -> default
+2022-12-16 19:44:23 [DEBUG]	logger.py - <module>:127 -> db
+2022-12-16 19:44:23 [INFO]	/logger.py - test:136 -> test: START
+2022-12-16 19:44:23 [INFO]	logger.py - printlog:114 -> test: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 19:45:03] ------------
+2022-12-16 19:45:03 [DEBUG]	logger.py - <module>:126 -> default
+2022-12-16 19:45:03 [DEBUG]	logger.py - <module>:127 -> db
+2022-12-16 19:45:03 [INFO]	/logger.py - test:136 -> test: START
+2022-12-16 19:45:03 [INFO]	logger.py - printlog:114 -> test: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 19:45:53] ------------
+2022-12-16 19:45:53 [Level 23]	logger.py - <module>:126 -> default
+2022-12-16 19:45:53 [DEBUG]	logger.py - <module>:127 -> db
+2022-12-16 19:45:53 [INFO]	/logger.py - test:136 -> test: START
+2022-12-16 19:45:53 [INFO]	logger.py - printlog:114 -> test: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 19:46:14] ------------
+2022-12-16 19:46:14 [DEBUG]	logger.py - <module>:126 -> default
+2022-12-16 19:46:14 [DEBUG]	logger.py - <module>:127 -> db
+2022-12-16 19:46:14 [INFO]	/Users/estyle-109/workspace/Confluence/Engineering/Logger/python/logger.py - test:136 -> test: START
+2022-12-16 19:46:14 [INFO]	logger.py - printlog:114 -> test: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 19:47:49] ------------
+2022-12-16 19:47:49 [DEBUG]	logger.py - <module>:126 -> default
+2022-12-16 19:47:49 [DEBUG]	logger.py - <module>:127 -> db
+2022-12-16 19:47:49 [INFO]	/logger.py - test:136 -> test: START
+2022-12-16 19:47:49 [INFO]	logger.py - printlog:114 -> test: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 19:49:13] ------------
+2022-12-16 19:49:13 [DEBUG]	logger.py - <module>:126 -> default
+2022-12-16 19:49:13 [INFO]	/logger.py - test:136 -> test: START
+2022-12-16 19:49:13 [INFO]	logger.py - printlog:114 -> test: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 19:50:02] ------------
+2022-12-16 19:50:02 [DEBUG]	logger.py - <module>:126 -> default
+2022-12-16 19:50:02 [INFO]	/logger.py - test:136 -> test: START
+2022-12-16 19:50:02 [INFO]	/logger.py - test:136 -> test: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 19:50:34] ------------
+2022-12-16 19:50:34 [DEBUG]	logger.py - <module>:126 -> default
+2022-12-16 19:50:34 [DEBUG]	logger.py - <module>:127 -> db
+2022-12-16 19:50:34 [INFO]	/logger.py - test1:139 -> test1: START
+2022-12-16 19:50:34 [INFO]	/logger.py - test1:139 -> test1: END(process time : 0)
+2022-12-16 19:50:34 [INFO]	/logger.py - test2:140 -> test2: START
+2022-12-16 19:50:34 [INFO]	/logger.py - test2:140 -> test2: END(process time : 0)

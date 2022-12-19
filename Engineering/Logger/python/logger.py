@@ -5,11 +5,7 @@
 import os
 import sys
 from logging import getLogger, Logger, StreamHandler, FileHandler, Formatter, Filter, DEBUG, INFO, WARNING, ERROR, CRITICAL, NOTSET
-from argparse import ArgumentParser
 from datetime import datetime
-import inspect
-from functools import wraps
-import time
 
 LOGLEVEL = DEBUG
 ABSPATH = os.path.abspath(".")
@@ -37,7 +33,7 @@ class Logging():
     def __init__(self):
         self.fmt_default = Formatter("%(asctime)s [%(levelname)s]\t%(real_filename)s - %(real_funcname)s:%(real_lineno)s -> %(message)s", "%Y-%m-%d %H:%M:%S")
         self.fmt_start   = Formatter("%(asctime)s %(message)s", "%Y-%m-%d %H:%M:%S")
-
+        self.greet = "default"
 
     def create_require(self, logname="default", loglevel=DEBUG, filepath="logs/test.log", fmt_type="default", custom_filter=True):
         """loggerの生成
@@ -83,38 +79,3 @@ class Logging():
         startlogger.addHandler(fh)
         startlogger.addHandler(sh)
         startlogger.critical('\n------------ START LOGGER [{}] ------------'.format(datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
-    
-def defaultlog(logger: Logger):
-
-    def logdec(func):
-
-        @wraps(func)
-        def printlog(*arg, **kwargs):
-
-            funcname = func.__name__
-
-            extra = {
-                'real_filename': inspect.getfile(func).replace(ABSPATH,""),
-                'real_funcname': funcname,
-                'real_lineno'  : inspect.currentframe().f_back.f_lineno
-            }
-
-            start_time = time.process_time()
-            logger.info("{}: START".format(funcname), extra=extra)
-
-            try:
-                response = func(*arg, **kwargs)
-            except Exception as e:
-                end_time = time.process_time()
-                logger.error("{}: KILL(process time : {})".format(funcname, round(end_time - start_time)), extra=extra)
-                logger.error(e)
-                raise e
-            else:
-                end_time = time.process_time()
-                logger.info("{}: END(process time : {})".format(funcname, round(end_time - start_time)), extra=extra)
-
-            return response
-        
-        return printlog
-
-    return logdec

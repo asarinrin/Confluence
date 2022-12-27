@@ -82,3 +82,137 @@
 2022-12-16 19:50:34 [INFO]	/logger.py - test1:139 -> test1: END(process time : 0)
 2022-12-16 19:50:34 [INFO]	/logger.py - test2:140 -> test2: START
 2022-12-16 19:50:34 [INFO]	/logger.py - test2:140 -> test2: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 20:10:06] ------------
+2022-12-16 20:10:06 [INFO]	/test1.py - test1:5 -> test1: START
+2022-12-16 20:10:06 [INFO]	/test1.py - test1:5 -> test1: END(process time : 0)
+2022-12-16 20:10:06 [INFO]	/test2.py - test2:6 -> test2: START
+2022-12-16 20:10:06 [INFO]	/test2.py - test2:6 -> test2: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 20:11:50] ------------
+2022-12-16 20:11:50 [INFO]	/test1.py - test1:5 -> test1: START
+2022-12-16 20:11:50 [INFO]	/test1.py - test1:5 -> test1: END(process time : 0)
+2022-12-16 20:11:50 [INFO]	/test2.py - test2:6 -> test2: START
+2022-12-16 20:11:50 [INFO]	/test2.py - test2:6 -> test2: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 20:12:31] ------------
+2022-12-16 20:12:31 [INFO]	/test1.py - test1:5 -> test1: START
+2022-12-16 20:12:31 [INFO]	/test1.py - test1:5 -> test1: END(process time : 0)
+2022-12-16 20:12:31 [INFO]	/test2.py - test2:6 -> test2: START
+2022-12-16 20:12:31 [INFO]	/test2.py - test2:6 -> test2: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 20:14:46] ------------
+2022-12-16 20:14:46 [INFO]	/test1.py - test1:6 -> test1: START
+2022-12-16 20:14:46 [INFO]	/test1.py - test1:6 -> test1: END(process time : 0)
+2022-12-16 20:14:46 [INFO]	/test2.py - test2:7 -> test2: START
+2022-12-16 20:14:46 [INFO]	/test2.py - test2:7 -> test2: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 20:15:30] ------------
+2022-12-16 20:15:30 [INFO]	/test1.py - test1:8 -> test1: START
+2022-12-16 20:15:30 [INFO]	/test1.py - test1:8 -> test1: END(process time : 0)
+2022-12-16 20:15:30 [INFO]	/test2.py - test2:9 -> test2: START
+2022-12-16 20:15:30 [INFO]	/test2.py - test2:9 -> test2: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 20:16:14] ------------
+2022-12-16 20:16:14 [INFO]	/test1.py - test1:7 -> test1: START
+2022-12-16 20:16:14 [INFO]	/test1.py - test1:7 -> test1: END(process time : 0)
+2022-12-16 20:16:14 [INFO]	/test2.py - test2:8 -> test2: START
+2022-12-16 20:16:14 [INFO]	/test2.py - test2:8 -> test2: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 20:17:11] ------------
+2022-12-16 20:17:11 [INFO]	/test1.py - test1:6 -> test1: START
+2022-12-16 20:17:11 [INFO]	/test1.py - test1:6 -> test1: END(process time : 0)
+2022-12-16 20:17:11 [INFO]	/test2.py - test2:7 -> test2: START
+2022-12-16 20:17:11 [INFO]	/test2.py - test2:7 -> test2: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 20:17:33] ------------
+2022-12-16 20:17:33 [INFO]	/test1.py - test1:6 -> test1: START
+2022-12-16 20:17:33 [INFO]	/test1.py - test1:6 -> test1: END(process time : 0)
+2022-12-16 20:17:33 [INFO]	/test2.py - test2:7 -> test2: START
+2022-12-16 20:17:33 [INFO]	/test2.py - test2:7 -> test2: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 20:17:55] ------------
+2022-12-16 20:17:55 [INFO]	/test1.py - test1:6 -> test1: START
+2022-12-16 20:17:55 [INFO]	/test1.py - test1:6 -> test1: END(process time : 0)
+2022-12-16 20:17:55 [INFO]	/test2.py - test2:7 -> test2: START
+2022-12-16 20:17:55 [INFO]	/test2.py - test2:7 -> test2: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 20:18:08] ------------
+2022-12-16 20:18:08 [INFO]	/test1.py - test1:6 -> test1: START
+2022-12-16 20:18:08 [INFO]	/test1.py - test1:6 -> test1: END(process time : 0)
+2022-12-16 20:18:08 [INFO]	/test2.py - test2:7 -> test2: START
+2022-12-16 20:18:08 [INFO]	/test2.py - test2:7 -> test2: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 20:18:17] ------------
+2022-12-16 20:18:17 [INFO]	/test1.py - test1:6 -> test1: START
+2022-12-16 20:18:17 [INFO]	/test1.py - test1:6 -> test1: END(process time : 0)
+2022-12-16 20:18:17 [INFO]	/test2.py - test2:7 -> test2: START
+2022-12-16 20:18:17 [INFO]	/test2.py - test2:7 -> test2: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 20:18:42] ------------
+2022-12-16 20:18:42 [INFO]	/test1.py - test1:6 -> test1: START
+2022-12-16 20:18:42 [INFO]	/test1.py - test1:6 -> test1: END(process time : 0)
+2022-12-16 20:18:42 [INFO]	/test2.py - test2:7 -> test2: START
+2022-12-16 20:18:42 [INFO]	/test2.py - test2:7 -> test2: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 20:22:12] ------------
+
+------------ START LOGGER [2022-12-16 20:27:34] ------------
+
+------------ START LOGGER [2022-12-16 20:27:58] ------------
+2022-12-16 20:27:58 [INFO]	/logger_decorator.py - test:91 -> test: START
+2022-12-16 20:27:58 [INFO]	/logger_decorator.py - test:91 -> test: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 20:28:05] ------------
+2022-12-16 20:28:05 [INFO]	/logger_decorator.py - test:92 -> test: START
+2022-12-16 20:28:05 [INFO]	/logger_decorator.py - test:71 -> test: START
+2022-12-16 20:28:05 [INFO]	/logger_decorator.py - test:71 -> test: END(process time : 0)
+2022-12-16 20:28:05 [INFO]	/logger_decorator.py - test:92 -> test: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 20:28:10] ------------
+2022-12-16 20:28:10 [INFO]	/logger_decorator.py - test:94 -> test: START
+2022-12-16 20:28:10 [INFO]	/logger_decorator.py - test:71 -> test: START
+2022-12-16 20:28:10 [INFO]	/logger_decorator.py - test:71 -> test: START
+2022-12-16 20:28:10 [INFO]	/logger_decorator.py - test:71 -> test: START
+2022-12-16 20:28:10 [INFO]	/logger_decorator.py - test:71 -> test: END(process time : 0)
+2022-12-16 20:28:10 [INFO]	/logger_decorator.py - test:71 -> test: END(process time : 0)
+2022-12-16 20:28:10 [INFO]	/logger_decorator.py - test:71 -> test: END(process time : 0)
+2022-12-16 20:28:10 [INFO]	/logger_decorator.py - test:94 -> test: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 20:29:02] ------------
+2022-12-16 20:29:02 [INFO]	/logger_decorator.py - test:95 -> test: START
+2022-12-16 20:29:02 [INFO]	/logger_decorator.py - test:95 -> test: END(process time : 0)
+2022-12-16 20:29:02 [INFO]	/logger_decorator.py - test2:96 -> test2: START
+2022-12-16 20:29:02 [INFO]	/logger_decorator.py - test2:96 -> test2: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 20:30:08] ------------
+2022-12-16 20:30:08 [INFO]	/logger_decorator.py - test:97 -> test: START
+2022-12-16 20:30:08 [INFO]	/logger_decorator.py - test:97 -> test: END(process time : 0)
+2022-12-16 20:30:08 [INFO]	/logger_decorator.py - test2:98 -> test2: START
+2022-12-16 20:30:08 [CRITICAL]	logger_decorator.py - test2:95 -> wow
+2022-12-16 20:30:08 [INFO]	/logger_decorator.py - test2:98 -> test2: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 20:30:43] ------------
+2022-12-16 20:30:43 [INFO]	/logger_decorator.py - test:100 -> test: START
+2022-12-16 20:30:43 [INFO]	/logger_decorator.py - test:100 -> test: END(process time : 0)
+2022-12-16 20:30:43 [INFO]	/logger_decorator.py - test2:101 -> test2: START
+2022-12-16 20:30:43 [CRITICAL]	logger_decorator.py - test2:97 -> wow
+2022-12-16 20:30:43 [WARNING]	logger_decorator.py - test2:98 -> dlas
+2022-12-16 20:30:43 [INFO]	/logger_decorator.py - test2:101 -> test2: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 20:30:52] ------------
+2022-12-16 20:30:52 [INFO]	/logger_decorator.py - test:100 -> test: START
+2022-12-16 20:30:52 [INFO]	/logger_decorator.py - test:100 -> test: END(process time : 0)
+2022-12-16 20:30:52 [INFO]	/logger_decorator.py - test2:101 -> test2: START
+2022-12-16 20:30:52 [CRITICAL]	logger_decorator.py - test2:97 -> wow
+2022-12-16 20:30:52 [Level 35]	logger_decorator.py - test2:98 -> dlas
+2022-12-16 20:30:52 [INFO]	/logger_decorator.py - test2:101 -> test2: END(process time : 0)
+
+------------ START LOGGER [2022-12-16 20:32:08] ------------
+2022-12-16 20:32:08 [INFO]	/logger_decorator.py - test:101 -> test: START
+2022-12-16 20:32:08 [INFO]	/logger_decorator.py - test:101 -> test: END(process time : 0)
+2022-12-16 20:32:08 [INFO]	/logger_decorator.py - test2:102 -> test2: START
+2022-12-16 20:32:08 [CRITICAL]	logger_decorator.py - test2:97 -> wow
+2022-12-16 20:32:08 [Level 35]	logger_decorator.py - test2:98 -> dlas
+2022-12-16 20:32:08 [ERROR]	/logger_decorator.py - test2:102 -> test2: KILL(process time : 0)
+2022-12-16 20:32:08 [ERROR]	logger_decorator.py - printlog:75 -> makeRecord() missing 2 required positional arguments: 'args' and 'exc_info'

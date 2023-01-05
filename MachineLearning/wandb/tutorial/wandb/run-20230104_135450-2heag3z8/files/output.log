@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/estyle-109/workspace/Confluence/MachineLearning/wandb/tutorial/tutorial.py", line 10, in <module>
+    df = pd.DataFrame(dc)
+  File "/Users/estyle-109/opt/anaconda3/envs/wandb-env/lib/python3.9/site-packages/pandas/core/frame.py", line 529, in __init__
+    mgr = init_dict(data, index, columns, dtype=dtype)
+  File "/Users/estyle-109/opt/anaconda3/envs/wandb-env/lib/python3.9/site-packages/pandas/core/internals/construction.py", line 287, in init_dict
+    return arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "/Users/estyle-109/opt/anaconda3/envs/wandb-env/lib/python3.9/site-packages/pandas/core/internals/construction.py", line 80, in arrays_to_mgr
+    index = extract_index(arrays)
+  File "/Users/estyle-109/opt/anaconda3/envs/wandb-env/lib/python3.9/site-packages/pandas/core/internals/construction.py", line 391, in extract_index
+    raise ValueError("If using all scalar values, you must pass an index")
+ValueError: If using all scalar values, you must pass an index

@@ -1,0 +1,176 @@
+2023-01-04 15:57:43,281 INFO    StreamThr :55332 [internal.py:wandb_internal():87] W&B internal server running at pid: 55332, started at: 2023-01-04 15:57:43.278587
+2023-01-04 15:57:43,285 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: status
+2023-01-04 15:57:43,288 DEBUG   SenderThread:55332 [sender.py:send_request():317] send_request: status
+2023-01-04 15:57:43,289 DEBUG   SenderThread:55332 [sender.py:send():303] send: header
+2023-01-04 15:57:43,289 INFO    WriterThread:55332 [datastore.py:open_for_write():75] open: /Users/estyle-109/workspace/Confluence/MachineLearning/wandb/tutorial/wandb/run-20230104_155743-9sv7q84i/run-9sv7q84i.wandb
+2023-01-04 15:57:43,314 DEBUG   SenderThread:55332 [sender.py:send():303] send: run
+2023-01-04 15:57:43,868 INFO    SenderThread:55332 [dir_watcher.py:__init__():216] watching files in: /Users/estyle-109/workspace/Confluence/MachineLearning/wandb/tutorial/wandb/run-20230104_155743-9sv7q84i/files
+2023-01-04 15:57:43,869 INFO    SenderThread:55332 [sender.py:_start_run_threads():928] run started: 9sv7q84i with start time 1672815463.269965
+2023-01-04 15:57:43,869 DEBUG   SenderThread:55332 [sender.py:send():303] send: summary
+2023-01-04 15:57:43,869 INFO    SenderThread:55332 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-04 15:57:43,870 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: check_version
+2023-01-04 15:57:43,870 DEBUG   SenderThread:55332 [sender.py:send_request():317] send_request: check_version
+2023-01-04 15:57:43,980 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: run_start
+2023-01-04 15:57:43,997 DEBUG   HandlerThread:55332 [system_info.py:__init__():31] System info init
+2023-01-04 15:57:43,997 DEBUG   HandlerThread:55332 [system_info.py:__init__():46] System info init done
+2023-01-04 15:57:43,997 INFO    HandlerThread:55332 [system_monitor.py:start():150] Starting system monitor
+2023-01-04 15:57:43,998 INFO    SystemMonitor:55332 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-04 15:57:43,998 INFO    HandlerThread:55332 [system_monitor.py:probe():171] Collecting system info
+2023-01-04 15:57:43,998 INFO    SystemMonitor:55332 [interfaces.py:start():168] Started cpu
+2023-01-04 15:57:43,999 INFO    SystemMonitor:55332 [interfaces.py:start():168] Started disk
+2023-01-04 15:57:43,999 DEBUG   HandlerThread:55332 [system_info.py:probe():195] Probing system
+2023-01-04 15:57:43,999 INFO    SystemMonitor:55332 [interfaces.py:start():168] Started memory
+2023-01-04 15:57:44,000 INFO    SystemMonitor:55332 [interfaces.py:start():168] Started network
+2023-01-04 15:57:44,011 DEBUG   HandlerThread:55332 [system_info.py:_probe_git():180] Probing git
+2023-01-04 15:57:44,056 DEBUG   HandlerThread:55332 [system_info.py:_probe_git():188] Probing git done
+2023-01-04 15:57:44,056 DEBUG   HandlerThread:55332 [system_info.py:probe():241] Probing system done
+2023-01-04 15:57:44,056 DEBUG   HandlerThread:55332 [system_monitor.py:probe():180] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.9.12', 'heartbeatAt': '2023-01-04T06:57:43.999453', 'startedAt': '2023-01-04T06:57:43.252762', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/estyle-109/workspace/Confluence/MachineLearning/wandb/tutorial/tutorial.py', 'codePath': 'MachineLearning/wandb/tutorial/tutorial.py', 'git': {'remote': 'https://github.com/asarinrin/Confluence.git', 'commit': '49c680ad95fad604aa8226e58c91b1b59b8a932d'}, 'email': '', 'root': '/Users/estyle-109/workspace/Confluence', 'host': 'estyle-109noMacBook-Pro.local', 'username': 'estyle-109', 'executable': '/Users/estyle-109/opt/anaconda3/envs/wandb-env/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'total': 228.27386474609375, 'used': 23.5694580078125}, 'memory': {'total': 8.0}}
+2023-01-04 15:57:44,056 INFO    HandlerThread:55332 [system_monitor.py:probe():181] Finished collecting system info
+2023-01-04 15:57:44,056 INFO    HandlerThread:55332 [system_monitor.py:probe():184] Publishing system info
+2023-01-04 15:57:44,056 DEBUG   HandlerThread:55332 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-01-04 15:57:44,057 DEBUG   HandlerThread:55332 [system_info.py:_save_pip():67] Saving pip packages done
+2023-01-04 15:57:44,057 DEBUG   HandlerThread:55332 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-01-04 15:57:44,874 INFO    Thread-13 :55332 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/estyle-109/workspace/Confluence/MachineLearning/wandb/tutorial/wandb/run-20230104_155743-9sv7q84i/files/requirements.txt
+2023-01-04 15:57:44,875 INFO    Thread-13 :55332 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/estyle-109/workspace/Confluence/MachineLearning/wandb/tutorial/wandb/run-20230104_155743-9sv7q84i/files/conda-environment.yaml
+2023-01-04 15:57:44,875 INFO    Thread-13 :55332 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/estyle-109/workspace/Confluence/MachineLearning/wandb/tutorial/wandb/run-20230104_155743-9sv7q84i/files/wandb-summary.json
+2023-01-04 15:57:46,203 DEBUG   HandlerThread:55332 [system_info.py:_save_conda():86] Saving conda packages done
+2023-01-04 15:57:46,203 INFO    HandlerThread:55332 [system_monitor.py:probe():186] Finished publishing system info
+2023-01-04 15:57:46,205 DEBUG   SenderThread:55332 [sender.py:send():303] send: files
+2023-01-04 15:57:46,206 INFO    SenderThread:55332 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-01-04 15:57:46,210 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-04 15:57:46,211 DEBUG   SenderThread:55332 [sender.py:send_request():317] send_request: stop_status
+2023-01-04 15:57:46,212 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-04 15:57:46,213 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-04 15:57:46,213 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-04 15:57:46,214 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-04 15:57:46,436 DEBUG   SenderThread:55332 [sender.py:send():303] send: telemetry
+2023-01-04 15:57:46,436 DEBUG   SenderThread:55332 [sender.py:send():303] send: history
+2023-01-04 15:57:46,437 DEBUG   SenderThread:55332 [sender.py:send():303] send: summary
+2023-01-04 15:57:46,439 INFO    SenderThread:55332 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-04 15:57:46,439 DEBUG   SenderThread:55332 [sender.py:send():303] send: history
+2023-01-04 15:57:46,439 DEBUG   SenderThread:55332 [sender.py:send():303] send: summary
+2023-01-04 15:57:46,439 INFO    SenderThread:55332 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-04 15:57:46,440 DEBUG   SenderThread:55332 [sender.py:send():303] send: history
+2023-01-04 15:57:46,440 DEBUG   SenderThread:55332 [sender.py:send():303] send: summary
+2023-01-04 15:57:46,440 INFO    SenderThread:55332 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-04 15:57:46,440 DEBUG   SenderThread:55332 [sender.py:send():303] send: history
+2023-01-04 15:57:46,440 DEBUG   SenderThread:55332 [sender.py:send():303] send: summary
+2023-01-04 15:57:46,441 INFO    SenderThread:55332 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-04 15:57:46,441 DEBUG   SenderThread:55332 [sender.py:send():303] send: telemetry
+2023-01-04 15:57:46,441 DEBUG   SenderThread:55332 [sender.py:send():303] send: exit
+2023-01-04 15:57:46,441 INFO    SenderThread:55332 [sender.py:send_exit():442] handling exit code: 0
+2023-01-04 15:57:46,441 INFO    SenderThread:55332 [sender.py:send_exit():444] handling runtime: 2
+2023-01-04 15:57:46,442 INFO    SenderThread:55332 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-04 15:57:46,442 INFO    SenderThread:55332 [sender.py:send_exit():450] send defer
+2023-01-04 15:57:46,442 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: defer
+2023-01-04 15:57:46,442 INFO    HandlerThread:55332 [handler.py:handle_request_defer():162] handle defer: 0
+2023-01-04 15:57:46,442 DEBUG   SenderThread:55332 [sender.py:send_request():317] send_request: defer
+2023-01-04 15:57:46,443 INFO    SenderThread:55332 [sender.py:send_request_defer():459] handle sender defer: 0
+2023-01-04 15:57:46,443 INFO    SenderThread:55332 [sender.py:transition_state():463] send defer: 1
+2023-01-04 15:57:46,443 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: defer
+2023-01-04 15:57:46,443 INFO    HandlerThread:55332 [handler.py:handle_request_defer():162] handle defer: 1
+2023-01-04 15:57:46,443 INFO    HandlerThread:55332 [system_monitor.py:finish():160] Stopping system monitor
+2023-01-04 15:57:46,460 DEBUG   SystemMonitor:55332 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-04 15:57:46,460 DEBUG   SystemMonitor:55332 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-04 15:57:46,460 DEBUG   SystemMonitor:55332 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-04 15:57:46,461 INFO    HandlerThread:55332 [interfaces.py:finish():175] Joined cpu
+2023-01-04 15:57:46,461 INFO    HandlerThread:55332 [interfaces.py:finish():175] Joined disk
+2023-01-04 15:57:46,461 INFO    HandlerThread:55332 [interfaces.py:finish():175] Joined memory
+2023-01-04 15:57:46,461 INFO    HandlerThread:55332 [interfaces.py:finish():175] Joined network
+2023-01-04 15:57:46,462 DEBUG   SenderThread:55332 [sender.py:send_request():317] send_request: defer
+2023-01-04 15:57:46,462 INFO    SenderThread:55332 [sender.py:send_request_defer():459] handle sender defer: 1
+2023-01-04 15:57:46,462 INFO    SenderThread:55332 [sender.py:transition_state():463] send defer: 2
+2023-01-04 15:57:46,462 DEBUG   SenderThread:55332 [sender.py:send():303] send: stats
+2023-01-04 15:57:46,463 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: defer
+2023-01-04 15:57:46,463 INFO    HandlerThread:55332 [handler.py:handle_request_defer():162] handle defer: 2
+2023-01-04 15:57:46,463 DEBUG   SenderThread:55332 [sender.py:send_request():317] send_request: defer
+2023-01-04 15:57:46,464 INFO    SenderThread:55332 [sender.py:send_request_defer():459] handle sender defer: 2
+2023-01-04 15:57:46,464 INFO    SenderThread:55332 [sender.py:transition_state():463] send defer: 3
+2023-01-04 15:57:46,465 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: defer
+2023-01-04 15:57:46,465 INFO    HandlerThread:55332 [handler.py:handle_request_defer():162] handle defer: 3
+2023-01-04 15:57:46,465 DEBUG   SenderThread:55332 [sender.py:send_request():317] send_request: defer
+2023-01-04 15:57:46,465 INFO    SenderThread:55332 [sender.py:send_request_defer():459] handle sender defer: 3
+2023-01-04 15:57:46,465 INFO    SenderThread:55332 [sender.py:transition_state():463] send defer: 4
+2023-01-04 15:57:46,465 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: defer
+2023-01-04 15:57:46,465 INFO    HandlerThread:55332 [handler.py:handle_request_defer():162] handle defer: 4
+2023-01-04 15:57:46,465 DEBUG   SenderThread:55332 [sender.py:send():303] send: summary
+2023-01-04 15:57:46,466 INFO    SenderThread:55332 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-04 15:57:46,466 DEBUG   SenderThread:55332 [sender.py:send_request():317] send_request: defer
+2023-01-04 15:57:46,466 INFO    SenderThread:55332 [sender.py:send_request_defer():459] handle sender defer: 4
+2023-01-04 15:57:46,466 INFO    SenderThread:55332 [sender.py:transition_state():463] send defer: 5
+2023-01-04 15:57:46,466 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: defer
+2023-01-04 15:57:46,466 INFO    HandlerThread:55332 [handler.py:handle_request_defer():162] handle defer: 5
+2023-01-04 15:57:46,466 DEBUG   SenderThread:55332 [sender.py:send_request():317] send_request: defer
+2023-01-04 15:57:46,466 INFO    SenderThread:55332 [sender.py:send_request_defer():459] handle sender defer: 5
+2023-01-04 15:57:46,734 INFO    SenderThread:55332 [sender.py:transition_state():463] send defer: 6
+2023-01-04 15:57:46,734 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: defer
+2023-01-04 15:57:46,735 INFO    HandlerThread:55332 [handler.py:handle_request_defer():162] handle defer: 6
+2023-01-04 15:57:46,735 DEBUG   SenderThread:55332 [sender.py:send_request():317] send_request: defer
+2023-01-04 15:57:46,735 INFO    SenderThread:55332 [sender.py:send_request_defer():459] handle sender defer: 6
+2023-01-04 15:57:46,735 INFO    SenderThread:55332 [sender.py:transition_state():463] send defer: 7
+2023-01-04 15:57:46,735 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: defer
+2023-01-04 15:57:46,735 INFO    HandlerThread:55332 [handler.py:handle_request_defer():162] handle defer: 7
+2023-01-04 15:57:46,735 DEBUG   SenderThread:55332 [sender.py:send_request():317] send_request: defer
+2023-01-04 15:57:46,736 INFO    SenderThread:55332 [sender.py:send_request_defer():459] handle sender defer: 7
+2023-01-04 15:57:46,736 INFO    SenderThread:55332 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-01-04 15:57:46,855 INFO    Thread-16 :55332 [upload_job.py:push():143] Uploaded file /var/folders/v7/1tlqym0d2z1g1jdwwrn96nxw0000gn/T/tmptm7fouqgwandb/2tk864cw-wandb-metadata.json
+2023-01-04 15:57:46,884 INFO    SenderThread:55332 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/estyle-109/workspace/Confluence/MachineLearning/wandb/tutorial/wandb/run-20230104_155743-9sv7q84i/files/wandb-summary.json
+2023-01-04 15:57:46,885 INFO    SenderThread:55332 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/estyle-109/workspace/Confluence/MachineLearning/wandb/tutorial/wandb/run-20230104_155743-9sv7q84i/files/conda-environment.yaml
+2023-01-04 15:57:46,885 INFO    SenderThread:55332 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/estyle-109/workspace/Confluence/MachineLearning/wandb/tutorial/wandb/run-20230104_155743-9sv7q84i/files/config.yaml
+2023-01-04 15:57:46,886 INFO    SenderThread:55332 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/estyle-109/workspace/Confluence/MachineLearning/wandb/tutorial/wandb/run-20230104_155743-9sv7q84i/files/wandb-metadata.json
+2023-01-04 15:57:46,886 INFO    SenderThread:55332 [dir_watcher.py:finish():392] scan: /Users/estyle-109/workspace/Confluence/MachineLearning/wandb/tutorial/wandb/run-20230104_155743-9sv7q84i/files
+2023-01-04 15:57:46,887 INFO    SenderThread:55332 [dir_watcher.py:finish():406] scan save: /Users/estyle-109/workspace/Confluence/MachineLearning/wandb/tutorial/wandb/run-20230104_155743-9sv7q84i/files/requirements.txt requirements.txt
+2023-01-04 15:57:46,887 INFO    SenderThread:55332 [dir_watcher.py:finish():406] scan save: /Users/estyle-109/workspace/Confluence/MachineLearning/wandb/tutorial/wandb/run-20230104_155743-9sv7q84i/files/config.yaml config.yaml
+2023-01-04 15:57:46,888 INFO    SenderThread:55332 [dir_watcher.py:finish():406] scan save: /Users/estyle-109/workspace/Confluence/MachineLearning/wandb/tutorial/wandb/run-20230104_155743-9sv7q84i/files/wandb-summary.json wandb-summary.json
+2023-01-04 15:57:46,897 INFO    SenderThread:55332 [dir_watcher.py:finish():406] scan save: /Users/estyle-109/workspace/Confluence/MachineLearning/wandb/tutorial/wandb/run-20230104_155743-9sv7q84i/files/conda-environment.yaml conda-environment.yaml
+2023-01-04 15:57:46,901 INFO    SenderThread:55332 [dir_watcher.py:finish():406] scan save: /Users/estyle-109/workspace/Confluence/MachineLearning/wandb/tutorial/wandb/run-20230104_155743-9sv7q84i/files/wandb-metadata.json wandb-metadata.json
+2023-01-04 15:57:46,902 INFO    SenderThread:55332 [sender.py:transition_state():463] send defer: 8
+2023-01-04 15:57:46,907 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: defer
+2023-01-04 15:57:46,908 INFO    HandlerThread:55332 [handler.py:handle_request_defer():162] handle defer: 8
+2023-01-04 15:57:46,908 DEBUG   SenderThread:55332 [sender.py:send_request():317] send_request: defer
+2023-01-04 15:57:46,908 INFO    SenderThread:55332 [sender.py:send_request_defer():459] handle sender defer: 8
+2023-01-04 15:57:46,908 INFO    SenderThread:55332 [file_pusher.py:finish():168] shutting down file pusher
+2023-01-04 15:57:47,218 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-04 15:57:47,218 DEBUG   SenderThread:55332 [sender.py:send_request():317] send_request: poll_exit
+2023-01-04 15:57:47,551 INFO    Thread-19 :55332 [upload_job.py:push():143] Uploaded file /Users/estyle-109/workspace/Confluence/MachineLearning/wandb/tutorial/wandb/run-20230104_155743-9sv7q84i/files/wandb-summary.json
+2023-01-04 15:57:47,553 INFO    Thread-17 :55332 [upload_job.py:push():143] Uploaded file /Users/estyle-109/workspace/Confluence/MachineLearning/wandb/tutorial/wandb/run-20230104_155743-9sv7q84i/files/requirements.txt
+2023-01-04 15:57:47,558 INFO    Thread-18 :55332 [upload_job.py:push():143] Uploaded file /Users/estyle-109/workspace/Confluence/MachineLearning/wandb/tutorial/wandb/run-20230104_155743-9sv7q84i/files/config.yaml
+2023-01-04 15:57:47,564 INFO    Thread-20 :55332 [upload_job.py:push():143] Uploaded file /Users/estyle-109/workspace/Confluence/MachineLearning/wandb/tutorial/wandb/run-20230104_155743-9sv7q84i/files/conda-environment.yaml
+2023-01-04 15:57:47,769 INFO    Thread-12 :55332 [sender.py:transition_state():463] send defer: 9
+2023-01-04 15:57:47,770 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: defer
+2023-01-04 15:57:47,770 INFO    HandlerThread:55332 [handler.py:handle_request_defer():162] handle defer: 9
+2023-01-04 15:57:47,770 DEBUG   SenderThread:55332 [sender.py:send_request():317] send_request: defer
+2023-01-04 15:57:47,770 INFO    SenderThread:55332 [sender.py:send_request_defer():459] handle sender defer: 9
+2023-01-04 15:57:47,770 INFO    SenderThread:55332 [file_pusher.py:join():173] waiting for file pusher
+2023-01-04 15:57:47,770 INFO    SenderThread:55332 [sender.py:transition_state():463] send defer: 10
+2023-01-04 15:57:47,770 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: defer
+2023-01-04 15:57:47,770 INFO    HandlerThread:55332 [handler.py:handle_request_defer():162] handle defer: 10
+2023-01-04 15:57:47,770 DEBUG   SenderThread:55332 [sender.py:send_request():317] send_request: defer
+2023-01-04 15:57:47,770 INFO    SenderThread:55332 [sender.py:send_request_defer():459] handle sender defer: 10
+2023-01-04 15:57:48,222 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-04 15:57:48,392 INFO    SenderThread:55332 [sender.py:transition_state():463] send defer: 11
+2023-01-04 15:57:48,393 DEBUG   SenderThread:55332 [sender.py:send_request():317] send_request: poll_exit
+2023-01-04 15:57:48,395 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: defer
+2023-01-04 15:57:48,395 INFO    HandlerThread:55332 [handler.py:handle_request_defer():162] handle defer: 11
+2023-01-04 15:57:48,396 DEBUG   SenderThread:55332 [sender.py:send_request():317] send_request: defer
+2023-01-04 15:57:48,396 INFO    SenderThread:55332 [sender.py:send_request_defer():459] handle sender defer: 11
+2023-01-04 15:57:48,396 INFO    SenderThread:55332 [sender.py:transition_state():463] send defer: 12
+2023-01-04 15:57:48,397 DEBUG   SenderThread:55332 [sender.py:send():303] send: final
+2023-01-04 15:57:48,397 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: defer
+2023-01-04 15:57:48,398 DEBUG   SenderThread:55332 [sender.py:send():303] send: footer
+2023-01-04 15:57:48,398 INFO    HandlerThread:55332 [handler.py:handle_request_defer():162] handle defer: 12
+2023-01-04 15:57:48,398 DEBUG   SenderThread:55332 [sender.py:send_request():317] send_request: defer
+2023-01-04 15:57:48,398 INFO    SenderThread:55332 [sender.py:send_request_defer():459] handle sender defer: 12
+2023-01-04 15:57:48,401 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-04 15:57:48,401 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: server_info
+2023-01-04 15:57:48,401 DEBUG   SenderThread:55332 [sender.py:send_request():317] send_request: poll_exit
+2023-01-04 15:57:48,402 DEBUG   SenderThread:55332 [sender.py:send_request():317] send_request: server_info
+2023-01-04 15:57:48,402 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: get_summary
+2023-01-04 15:57:48,406 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: sampled_history
+2023-01-04 15:57:48,892 DEBUG   HandlerThread:55332 [handler.py:handle_request():139] handle_request: shutdown
+2023-01-04 15:57:48,892 INFO    HandlerThread:55332 [handler.py:finish():814] shutting down handler
+2023-01-04 15:57:49,403 INFO    WriterThread:55332 [datastore.py:close():279] close: /Users/estyle-109/workspace/Confluence/MachineLearning/wandb/tutorial/wandb/run-20230104_155743-9sv7q84i/run-9sv7q84i.wandb
+2023-01-04 15:57:49,894 INFO    SenderThread:55332 [sender.py:finish():1331] shutting down sender
+2023-01-04 15:57:49,895 INFO    SenderThread:55332 [file_pusher.py:finish():168] shutting down file pusher
+2023-01-04 15:57:49,895 INFO    SenderThread:55332 [file_pusher.py:join():173] waiting for file pusher
+2023-01-04 15:57:50,899 INFO    MainThread:55332 [internal.py:handle_exit():77] Internal process exited

@@ -1,0 +1,42 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.12",
+    "heartbeatAt": "2023-01-04T05:36:07.591947",
+    "startedAt": "2023-01-04T05:36:06.822935",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/estyle-109/workspace/Confluence/MachineLearning/wandb/tutorial/tutorial.py",
+    "codePath": "MachineLearning/wandb/tutorial/tutorial.py",
+    "git": {
+        "remote": "https://github.com/asarinrin/Confluence.git",
+        "commit": "49c680ad95fad604aa8226e58c91b1b59b8a932d"
+    },
+    "email": "",
+    "root": "/Users/estyle-109/workspace/Confluence",
+    "host": "estyle-109noMacBook-Pro.local",
+    "username": "estyle-109",
+    "executable": "/Users/estyle-109/opt/anaconda3/envs/wandb-env/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "total": 228.27386474609375,
+        "used": 23.5694580078125
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

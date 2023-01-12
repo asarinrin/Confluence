@@ -1,1 +1,7 @@
-__pycache__
+__pycache_
+
+# 環境構築
+.env
+
+# wandb
+wandb

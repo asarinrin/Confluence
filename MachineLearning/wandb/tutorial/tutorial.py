@@ -5,10 +5,7 @@ import random
 from sweep_configuratioin.sample_sweep_configuration import SWEEP_CONFIGURATION
 
 SWEEP_CONFIGURATION = {
-    'command': {
-        - "echo",
-    },
-    'method': 'random',
+    'method': 'grid',
     'name': 'sweep',
     'metric': {
         'goal': 'minimize', 
@@ -17,8 +14,14 @@ SWEEP_CONFIGURATION = {
     'parameters': {
         'batch_size': {'values': [16, 32, 64]},
         'epochs': {'values': [5, 10, 15]},
-        'lr': {'max': 0.1, 'min': 0.0001}
-    }
+        # 'lr': {'max': 0.1, 'min': 0.0001}
+    },
+    # 'early_terminate': {
+    #     'type': 'hyperband',
+    #     's': 2,
+    #     'eta': 3,
+    #     'max_iter': 27
+    # }
 }
 
 # 🐝 Step 1: Define training function that takes in hyperparameter 
@@ -41,7 +44,8 @@ def main():
 
     # note that we define values from `wandb.config` instead of 
     # defining hard values
-    lr  =  wandb.config.lr
+    # lr  =  wandb.config.lr
+    lr  =  0.01
     bs = wandb.config.batch_size
     epochs = wandb.config.epochs
 
@@ -49,7 +53,7 @@ def main():
         train_acc, train_loss = train_one_epoch(epoch, lr, bs)
         val_acc, val_loss = evaluate_one_epoch(epoch)
 
-        wandb.log({
+        run.log({
             'epoch': epoch, 
             'train_acc': train_acc,
             'train_loss': train_loss, 
@@ -64,4 +68,4 @@ sweep_configuration = SWEEP_CONFIGURATION
 sweep_id = wandb.sweep(sweep=sweep_configuration, project='my-first-sweep')
 
 # 🐝 Step 4: Call to `wandb.agent` to start a sweep
-wandb.agent(sweep_id, function=main, count=1)
+wandb.agent(sweep_id, function=main)
